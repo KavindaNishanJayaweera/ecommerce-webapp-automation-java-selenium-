@@ -207,7 +207,7 @@ public class Core {
         String developedBy = readProperty("./src/main/resources/license", "DevelopedBy");
         String email = readProperty("./src/main/resources/license", "Email");
         String baseurl = readProperty("./src/main/resources/config.properties", "baseURL");
-        if (productName.contentEquals("Kavinda.bdd.test.automation") & productOwner.contentEquals("kavinda") & version.contentEquals("2025") & developedBy.contentEquals("Kavinda Jayaweera") & productKey.contentEquals("a8d7b243b192ba2a1738a5fa673c27b8") & email.contentEquals("kavindajayaweera115@gmail.com") & (baseurl.contains("globalsqa.com") | baseurl.contains("https://demoqa.com"))) {
+        if (productName.contentEquals("Kavinda.bdd.test.automation") & productOwner.contentEquals("kavinda") & version.contentEquals("2025") & developedBy.contentEquals("Kavinda Jayaweera") & productKey.contentEquals("a8d7b243b192ba2a1738a5fa673c27b8") & email.contentEquals("kavindajayaweera115@gmail.com") & (baseurl.contains("practice.qabrains.com") | baseurl.contains("https://practice."))) {
             validate = "Success";
         } else {
             JFrame f = new JFrame();
