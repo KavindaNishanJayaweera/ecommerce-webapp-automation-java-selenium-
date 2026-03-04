@@ -69,7 +69,8 @@ public class Core {
                         //  driver = new ChromeDriver(options);
                         //  driver.manage().window().maximize();
                     case "chrome":
-                        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+                        WebDriverManager.chromedriver().setup();
+                        //System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
                         ChromeOptions options = new ChromeOptions();
                         options.addArguments(new String[]{"--ignore-certificate-errors"});
                         driver = new ChromeDriver();
